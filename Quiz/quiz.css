@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+
+.rightans{
+border:3px solid #00933B;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+background: -moz-linear-gradient(right, #1F7A1F, #85E085); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #1F7A1F, #85E085);
+}
+
+.wrongans{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+border:3px solid #f00;
+background: -moz-linear-gradient(right, #FF1919, #FF9999); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #FF1919, #FF9999);
+}
+
+#ans{
+	font-family:'Exo',sans-serif;
+	color:white;
+	font-size: 30px;
+}
+
+#wrapper{
+	text-align: center;
+}
+
+#button
+{
+	width: 50%;
+	height: 50px;
+	background: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: -10px;
+	//margin-right: auto;
+	//margin-left: auto;
+	display: inline-block;
+}
+
+#button:hover{
+	opacity: 0.8;
+}
+
+#button:active{
+	opacity: 0.6;
+}
+
+#field
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+  	background: -moz-linear-gradient(right, #003D66, #80CCFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #003D66, #80CCFF);
+}
+
+#quiztitle
+{
+	font-family:'Exo',sans-serif;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+}
+
+#marks
+{
+    font-family:'Exo',sans-serif;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+}
+
+p
+{
+font-family: 'Raleway',sans-serif;
+color:#FFFFFF;
+font-size: 30px;
+}
+
+body  {
+   	background-image: url("../images.jpg");
+    background-size:cover;
+	background-size : 100% auto
+}
+			
+form
+{
+	font-family:'Raleway',sans-serif;
+	font-size: 25px;
+	color:#001F3D;
+	font-weight: bold;
+}

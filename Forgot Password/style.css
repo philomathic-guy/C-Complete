@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+	background-image: url("../images.jpg");
+	background-size: cover;
+  background-size : 100% auto
+}
+/* Header CSS start*/
+li:hover{
+  background-color: #6EB5C1;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.siteheader{
+  position: absolute;
+  top: 22px;
+  left: 60px;
+}
+
+.siteheader div a{
+  float: left;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.siteheader div a span{
+  color: #5379fa !important;
+}
+
+.main-header{
+  min-height: 120px;
+}
+
+.header-div {
+  margin: auto;
+  width: 100%;
+  min-height: 40px;
+  padding: 1em 2em;
+  border: 2px solid #373737;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background: #373737;
+}
+  .main-header:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+.main-nav,
+.drop-nav {
+  background: #AFAFAF;
+}
+.main-nav {
+  float: right;
+  border-radius: 4px;
+  border: solid 1px #AFAFAF;
+}
+  .main-nav > li {
+    float: left;
+    border-left: solid 1px #FFFFFF;
+  }
+  .main-nav li:first-child {
+    border-left: none;
+  }
+  .main-nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+.dropdown{
+  position: relative;
+}
+.dropdown:after {
+  content: "\25BC";
+  font-size: .5em;
+  display: block;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+}
+.drop-nav{
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.dropdown:hover > .drop-nav{
+  display: block;
+}
+/* Header CSS end*/
+
+	.header div span{
+	color: #5379fa !important;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 280px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+.forgot{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 20px;
+	z-index: 2;
+}
+.forgot input[type="text"]{
+	width: 350px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);		/*'a' in rgba stands for alpha channel which decides the opaacity of the object, in this case the text field!*/
+													/* Border width, border style, border color are the components of the border shothand property*/	
+	border-radius: 2px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 4px;
+
+}
+.forgot input[type=submit]{
+	width: 360px;
+	height: 35px;
+	background: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.forgot input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.forgot input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.forgot input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,1);
+}
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.3);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.3);
+}
+.forgotstatement
+{
+color:gray;
+font-family:Comic Sans MS, cursive, sans-serif;
+text-align: center;
+//font-weight:bold;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+font-size:40px;
+}

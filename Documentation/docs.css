@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+
+h1
+{
+	font-family: "Exo",sans-serif;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+p
+{
+font-family:"Raleway",sans-serif;
+font-size: 25px;
+color:#000000;
+font-weight: 700;
+}
+h2,h3
+{
+font-family:"Raleway",sans-serif;
+color:white;
+font-size: 35px;
+font-weight: 800;
+}
+body{
+   	background-image: url("../images.jpg");
+   	background-size:cover;
+	background-size : 100% auto
+}
+
+#field
+{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	//background-color: white;
+	background: -moz-linear-gradient(right, #0047B2, #80B2FF); 
+	background: linear-gradient(to bottom right, #0047B2, #80B2FF);
+}
+/*
+#description
+{
+	background-color: #FF4719;
+	//background: -moz-linear-gradient(right, #0047B2, #80B2FF); 
+	//background: linear-gradient(to right, #0047B2, #80B2FF);
+}
+
+#example
+{
+	background-color: #8330D6;
+	//background: -moz-linear-gradient(right, #009900, #80FF80); 
+	//background: linear-gradient(to right, #009900, #80FF80);
+}
+
+#syntax
+{
+	background-color: #0099FF;
+	//background: -moz-linear-gradient(right, #E60000, #FF6666); 
+	//background: linear-gradient(to right, #E60000, #FF6666);
+}
+*/
+#wrapper{
+	text-align: center;
+}
+
+#button
+{
+	width: 50%;
+	height: 50px;
+	background: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: -10px;
+	//margin-right: auto;
+	//margin-left: auto;
+	display: inline-block;
+}
+
+#button:hover{
+	opacity: 0.8;
+}
+
+#button:active{
+	opacity: 0.6;
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #0e35f5;
+   background: -webkit-gradient(linear, left top, left bottom, from(#051b42), to(#0e35f5));
+   background: -webkit-linear-gradient(top, #051b42, #0e35f5);
+   background: -moz-linear-gradient(top, #051b42, #0e35f5);
+   background: -ms-linear-gradient(top, #051b42, #0e35f5);
+   background: -o-linear-gradient(top, #051b42, #0e35f5);
+   padding: 5px 10px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #1e36b0;
+   background: #1e36b0;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #0d124a;
+   background: #0d124a;
+   }
